@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# 数据文件
+*.csv
+!example_*.csv
+*.pkl
+*.bak
+
+# 输出文件
+hedge_analysis_summary.csv
+unified_panel.csv
+processed_data_panel.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 数据目录（包含大量CSV文件）
+期货数据*/
